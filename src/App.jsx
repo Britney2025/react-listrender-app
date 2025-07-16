@@ -28,7 +28,7 @@ function App() {
   return (
     <div>
       <div>
-        <h1>Book List</h1>
+        <h1 class="text-2xl font-bold text-center mb-6">Book List</h1>
         <div>
           <input 
           type="text" 
