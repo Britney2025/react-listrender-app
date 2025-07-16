@@ -3,9 +3,9 @@ import BookItem from './BookItem'
 
 function Booklist({ books, onDelete }) {
     return (
-        <div>
+        <div class="space-y-4">
             {books.length === 0 ? (
-                <p>No books in this list.</p>
+                <p class="text-gray-500">No books in this list.</p>
             ) : (
                 books.map(book => (
                     <BookItem key={book.id} book={book} onDelete={onDelete}/>
